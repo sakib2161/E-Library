@@ -1,0 +1,295 @@
+
+body{
+	max-width:100%;
+	overflow-x:hidden;
+}
+/*-------- MixItUp Area ---------*/
+#mix-wrapper .mix {
+    display: none;
+}
+
+p{
+	font-family:AriaScriptSSK-Regular;
+}
+/*------------- Nav Area -----------*/
+nav{
+	width:100%;
+
+}
+.navbar-header a{
+	font-weight:bold;
+}
+#myNavbar{
+	font-family:BlackChancery;
+
+}
+/*------------- End Nav Area ---------*/
+/*-------- End MixItUp Area ---------*/
+
+/*--------- Background Area --------*/
+#background {
+	background:url(img/pexels-photo-12064.jpeg)  no-repeat scroll center center;
+	background-size:cover;
+    height:480px;
+    width: 100%;
+}
+#background h3 {
+    position: absolute;
+    margin-top: -70px;
+    margin-left: -36%;
+    color:rgba(204,204,204,.77);
+    font-size: 34px;
+}
+
+/*--------- End Background Area --------*/
+
+/*---------- Welcome Area ------------*/
+#welcome-h2{
+	font-family: BlackChancery;
+}
+#welcome-p{
+}
+
+/*---------- Welcome Area ------------*/
+
+/*---------Book list Area  ----------*/
+#book-list{
+}
+#book-list h3 {
+    font-size: 34px;
+    padding-bottom: 7px;
+	font-family: BlackChancery;
+}
+#book-list h4 {
+    font-size: 30px;
+    letter-spacing: 2px;
+    padding-bottom: 2px;
+	font-family: BlackChancery;
+}
+.breadcrumb li a {
+    font-family: BlackChancery;
+    letter-spacing: 1px;
+    font-size: 17px;
+}
+.breadcrumb li a:hover {
+    color: rgba(102, 51, 0, 1);
+}
+#mix-wrapper li a {
+    font-size: 13px;
+    font-family: AriaScriptSSK-Regular;
+}
+#mix-wrapper li a:hover {
+    color: rgba(102, 51, 0, 1);
+}
+
+
+/*---------Book list Area  ----------*/
+
+
+/*--------- Semister Area ------------*/
+#semister{
+	background:rgba(204,204,204,.2);
+	height:250px;
+	margin-bottom:35px;
+	margin-top:35px;
+}
+#semister h3 {
+    font-size: 34px;
+    margin-bottom: 22px;
+    padding-bottom: 2px;
+	font-family: BlackChancery;
+
+}
+#semister .row {
+    width: 100%;
+}
+#semister p {
+    background-color: #454545;
+    border-radius: 3px;
+    font-size: 17px;
+    height: 50px;
+    margin: 5px;
+    padding: 13px;
+    width: 150px;
+	color:rgba(255,255,255,.5);
+}
+#semister p:hover {
+    background-color: #454545;
+    border-radius: 3px;
+    font-size: 17px;
+	font-weight:bold;
+    height: 50px;
+    margin: 5px;
+    padding: 13px;
+    width: 150px;
+	color:rgba(255,255,255,.9);
+}
+#last-sem{
+}
+
+/*--------- End Semister Area ------------*/
+
+/*---------- Contact Area ------------*/
+#contact h3{
+    font-family: BlackChancery;
+    font-size: 38px;
+    padding-bottom: 4px;
+}
+#me {
+}
+#me h4 {
+}
+#me p{	
+}
+#form {
+	
+}
+#form p {
+}
+#form input{
+}
+#form .btn{
+}
+#email {
+    width: 198px;
+    position: absolute;
+    border-radius: 1px;
+}
+#submit {
+    margin-left: 197px;
+    height: 36px;
+    border: 1px solid;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    margin-top: -1px;
+    width: 75px;
+}
+
+/*---------- End Contact Area ------------*/
+
+/*--------- Footer Area -----------*/
+
+#footer i {
+    background: #0cf none repeat scroll 0 0;
+    border-radius: 4px;
+    font-size: 27px;
+    height: 50px;
+    padding-top: 12px;
+    width: 50px;
+    color: white;
+}
+
+/*--------- End Footer Area -----------*/
+@media only screen and (min-width: 992px) {
+#semister .row{
+	margin-left:23%;
+}
+}
+@media only screen and (max-width: 992px) {
+#background{
+	width:104.4%;
+}
+#book-list h3 {
+ 
+}
+#book-list h4 {
+}
+#semister h3{
+}
+#semister .row{
+	margin-left:6%;
+}
+}
+@media only screen and (max-width: 768px) {
+.navbar-header a {
+    margin-left: 4%;
+    font-family: message-box;
+    font-weight: bolder;
+}
+#background{
+	width:106.3%;
+}
+#background img{
+}
+#background h3{
+	display:none;
+}
+#book-list h3 {
+}
+#book-list h4 {
+}
+#semister{
+	height:auto;
+	padding-bottom:40px;
+}
+#semister h3{
+}
+#semister .row{
+	margin-left:3.5%;
+}
+
+#contact h3 {
+}
+#form {
+}
+#form input {
+}
+#form textarea {
+}
+}
+
+
+@media only screen and (max-width: 480px) {
+.navbar-header a {
+    margin-left: 4%;
+    font-family: message-box;
+    font-weight: bolder;
+}	
+#background{
+	width:109.5%;
+}
+#background img{
+	opacity:.8;
+}
+#background h3{
+	display:none;
+}
+#book-list h3 {
+}
+#book-list h4 {
+}
+#semister{
+	height:auto;
+	padding-bottom:40px;
+}
+#semister h3 {
+}
+#semister p {
+	width:87%;
+	margin-left:-1%;
+}
+#semister p:hover {
+	width:87%;
+	margin-left:-1%;
+}
+
+#semister .row{
+	margin-left:8%;
+}
+#contact h3{
+	border-bottom:1px solid;
+	width:-moz-min-content;
+	margin-left:29%;
+}
+#me{
+}
+#form{
+}
+#form input{
+}
+#form textarea{
+}
+}
+
